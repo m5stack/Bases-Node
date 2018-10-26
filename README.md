@@ -1,8 +1,9 @@
 # M5StackModule-Node
 
-**Docs about the Node Module designed by M5Stack**
+*Docs about the Node Module designed by M5Stack*
 
-The Node is a sound box module with 12 RGBLed(SK6812), a codec chip(WM8978), DHT12, IR Transmitter and Receiver(CHQ0038H), two MICs. WM8978 is often used to be applied for Hi-Fi Speaker. You can program it after connected to any series of M5Stack Core through Arduino.
+## DESCRIPTION
+The <mark>Node</mark> is a sound box module with 12 RGBLed(SK6812), a codec chip(WM8978), DHT12, IR Transmitter and Receiver(CHQ0038H), two MICs. WM8978 is often used to be applied for Hi-Fi Speaker. You can program it after connected to any series of M5Stack Core through Arduino.
 
 You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with this module.
 
@@ -34,6 +35,8 @@ You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with thi
 | :------------------:  |:------------------:|
 | I2C_SDA | GPIO21 |
 | I2C_SCL | GPIO22 |
+
+## DOCUMENTS
 
  - [Schematic](https://github.com/watson8544/M5StackModule-Node/tree/master/schematic)
  - [Example](https://github.com/watson8544/M5StackModule-Node/tree/master/Example)
