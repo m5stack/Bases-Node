@@ -7,7 +7,7 @@ The **Node** is a **sound box** module with 12 RGBLed(SK6812), a codec chip(WM89
 
 You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with this module.
 
-*For verifying the hardware, you can burn these [example codes](https://github.com/watson8544/M5StackModule-Node/tree/master/Example) to Node.*
+*For verifying the hardware, you can burn these [example codes](https://github.com/m5stack/M5StackModule-Node/tree/master/example) to Node.*
 
 ### PinMap
 
