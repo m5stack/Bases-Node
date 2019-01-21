@@ -13,14 +13,14 @@ You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with thi
 
 | **Codec Chip(WM8978)(Slaver)**     | **ESP32(Master)**  |
 | :------------------:  |:------------------:|
-| I2C_SDA | GPIO21 |
-| I2C_SCL | GPIO22 |
-| L_OUT1 | GPIO25 |
-| I2S_CLK_24M | GPIO0 |
+| I2C_SDA(SDIN) | GPIO21 |
+| I2C_SCL(SCLK) | GPIO22 |
+| L_OUT1(LOUT1) | GPIO25 |
+| I2S_CLK(MCLK) | GPIO0 |
 | I2S_IN(DACDAT) | GPIO2 |
 | I2S_OUT(ADCDAT) | GPIO34 |
-| I2S_BCK | GPIO5 |
-| I2S_WS | GPIO13 |
+| I2S_BCK(BCK) | GPIO5 |
+| I2S_WS(LRC) | GPIO13 |
 
 | **RGBLed(SK6812)**     | **ESP32**  |
 | :------------------:  |:------------------:|
