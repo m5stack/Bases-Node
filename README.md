@@ -17,8 +17,8 @@ You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with thi
 | I2C_SCL | GPIO22 |
 | L_OUT1 | GPIO25 |
 | I2S_CLK_24M | GPIO0 |
-| DACDAT(I2S_IN) | GPIO2 |
-| ADCDAT(I2S_OUT) | GPIO34 |
+| I2S_IN(DACDAT) | GPIO2 |
+| I2S_OUT(ADCDAT) | GPIO34 |
 | I2S_BCK | GPIO5 |
 | I2S_WS | GPIO13 |
 
