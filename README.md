@@ -11,14 +11,14 @@ You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with thi
 
 ### PinMap
 
-| **Codec Chip(WM8978)**     | **ESP32**  |
+| **Codec Chip(WM8978)(Slaver)**     | **ESP32(Master)**  |
 | :------------------:  |:------------------:|
 | I2C_SDA | GPIO21 |
 | I2C_SCL | GPIO22 |
 | L_OUT1 | GPIO25 |
 | I2S_CLK_24M | GPIO0 |
-| I2S_MOSI | GPIO2 |
-| I2S_MISO | GPIO34 |
+| DACDAT(I2S_IN) | GPIO2 |
+| ADCDAT(I2S_OUT) | GPIO34 |
 | I2S_BCK | GPIO5 |
 | I2S_WS | GPIO13 |
 
